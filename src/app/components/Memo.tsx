@@ -61,7 +61,7 @@ export default function Memo() {
 
         <p>
           The issue is that React will re-render the entire component tree when
-          the parent's state is changed by the toggle
+          the parent&apos;s state is changed by the toggle
         </p>
 
         <p>

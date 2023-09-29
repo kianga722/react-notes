@@ -151,7 +151,7 @@ export default function Usememo() {
 
         <p>
           The issue is that React will re-do the costly calculation when the
-          component's state is changed by adding a random number
+          component&apos;s state is changed by adding a random number
         </p>
 
         <p>

@@ -81,8 +81,8 @@ export default function Context() {
 
         <p>
           You will see now that the Child component wrapped in memo with the
-          Context Provider that is using useMemo for it's value prop does not
-          re-render when the parent re-renders. Just using memo on the child
+          Context Provider that is using useMemo for it&apos;s value prop does
+          not re-render when the parent re-renders. Just using memo on the child
           itself will not prevent re-rendering, since the act of the Provider
           re-rendering redeclares the value prop and forces all the consumers of
           the Context to re-render.

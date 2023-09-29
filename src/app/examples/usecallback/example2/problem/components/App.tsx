@@ -1,21 +1,8 @@
-'use client'
+"use client";
 
-import { useState, memo } from "react";
+import { useState } from "react";
 
-const Numbers = memo(({ nums, addRandom }: { nums: number[], addRandom: () => void }) => {
-  console.log("Numbers rendered");
-
-  return (
-    <div>
-      <ul>
-        {nums.map((num, i) => (
-          <li key={i}>{num}</li>
-        ))}
-      </ul>
-      <button onClick={addRandom}>Add random</button>
-    </div>
-  );
-});
+import Numbers from "./Numbers";
 
 export default function App() {
   const [nums, setNums] = useState<number[]>([]);
