@@ -9,10 +9,10 @@ export default function Nav() {
 
       <nav className={styles.nav}>
         <Link href="/">Home</Link>
-        <Link href="/#memo">memo</Link>
-        <Link href="/#usememo">useMemo</Link>
-        <Link href="/#usecallback">useCallback</Link>
-        <Link href="/#context">Context Scenarios</Link>
+        <Link href="#memo">memo</Link>
+        <Link href="#usememo">useMemo</Link>
+        <Link href="#usecallback">useCallback</Link>
+        <Link href="#context">Context Scenarios</Link>
       </nav>
     </section>
   );
