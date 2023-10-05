@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 import styles from "../page.module.css";
 
 export default function Nav() {
@@ -8,11 +6,11 @@ export default function Nav() {
       <h2 className={styles.green}>Table of Contents</h2>
 
       <nav className={styles.nav}>
-        <Link href="/">Home</Link>
-        <Link href="#memo">memo</Link>
-        <Link href="#usememo">useMemo</Link>
-        <Link href="#usecallback">useCallback</Link>
-        <Link href="#context">Context Scenarios</Link>
+        <a href="/">Home</a>
+        <a href="/#memo">memo</a>
+        <a href="/#usememo">useMemo</a>
+        <a href="/#usecallback">useCallback</a>
+        <a href="/#context">Context Scenarios</a>
       </nav>
     </section>
   );
